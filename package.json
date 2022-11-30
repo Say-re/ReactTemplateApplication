@@ -1,21 +1,21 @@
 {
-  "name": "react-template",
-  "version": "1.0.0",
+  "author": "Say-re",
   "description": "React Application Template",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "test-suite": "jest test/*/unit --coverage",
-    "build:develop": "webpack --config webpack.dev.js --mode production",
-    "build:production": "webpack --config webpack.prod.js --mode production",
-    "build:JSON": "webpack --json=stats.json --config webpack.prod.js --mode production",
-    "start:client-dev": "webpack-dev-server --mode development --env development --open --hot"
-  },
+  "name": "react-template",
   "repository": {
     "type": "git",
     "url": "git@github.com:Say-re/templateReactApplication.git"
   },
-  "author": "Say-re",
-  "license": "MIT",
+  "scripts": {
+    "build:develop": "webpack --config webpack.dev.js --mode production",
+    "build:production": "webpack --config webpack.prod.js --mode production",
+    "build:JSON": "webpack --json=stats.json --config webpack.prod.js --mode production",
+    "start:client-dev": "webpack-dev-server --mode development --env development --open --hot",
+    "test-suite": "jest test/*/unit --coverage"
+  },
+  "version": "1.0.0",
   "dependencies": {
     "core-js": "^3.26.1",
     "isomorphic-fetch": "^3.0.0",
