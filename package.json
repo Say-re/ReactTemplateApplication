@@ -1,10 +1,10 @@
 {
-  "name": "emissions-usa",
+  "name": "react-template",
   "version": "1.0.0",
-  "description": "Various graphics for showing emissions produced by states based on various metrics",
+  "description": "React Application Template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-suite": "jest test/*/unit --coverage",
     "build:develop": "webpack --config webpack.dev.js --mode production",
     "build:production": "webpack --config webpack.prod.js --mode production",
     "build:JSON": "webpack --json=stats.json --config webpack.prod.js --mode production",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Say-re/emissions-usa.git"
+    "url": "git@github.com:Say-re/templateReactApplication.git"
   },
   "author": "Say-re",
   "license": "MIT",
